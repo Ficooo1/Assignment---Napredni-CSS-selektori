@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+a[href^="https://www.google.com" ]{
+	
+	color: mediumseagreen;
+	
+	
+}
+
+a[target="_blank"]{
+	
+	color: red;
+	
+}
+
+/* Ili preko ID da se oboji jednostavno
+
+#tg {
+	color: red; } 
+
+*/
+
+#second-div p:nth-child(even){
+	color: red;
+}
+
+#second-div p:nth-child(odd){
+	color: blue;
+}
+
+#first-div > p::after{
+	content: " – NEW";
+	color: #ECEC3B;
+	
+}
+
+body> p:last-of-type:hover{
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
